@@ -9,7 +9,7 @@ Lgate = 30*sin(elevation*(pi/180)) # accounting for VAD step-stares not pointing
 x1 = seq(1,360,1)
 x = matrix(x1,ncol = 12, nrow = 30) 
 azimuth = matrix(data = seq(0,330,30))
-library(rfgfs)
+library(rfgfs) #may need to dowload from github
 declination=abs(magvar(lat, lon, h = 1, date = date))
 
 #Retrieve a list of files in my data folder:
