@@ -23,8 +23,8 @@ install.packages("rvad")
 And -->
 
 ``` r
-install.packages("devtools")
-devtools::install_github("meg-mac/lidar_vad")
+#install.packages("devtools")
+#devtools::install_github("meg-mac/lidar_vad")
 ```
 
 ## Example
