@@ -16,16 +16,13 @@ with:
 
 <!-- the released version of rvad from [CRAN](https://CRAN.R-project.org) with:
 
-``` r
-install.packages("rvad")
-```
 
 And -->
 
-``` r
-#install.packages("devtools")
-#devtools::install_github("meg-mac/lidar_vad")
-```
+<!--``` r
+<!--#install.packages("devtools")
+<!--#devtools::install_github("meg-mac/lidar_vad")
+<!--```
 
 ## Example
 
