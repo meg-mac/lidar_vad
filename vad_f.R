@@ -213,8 +213,7 @@ for (i in 1:length(flist)) {
     if (!exists("wdir1")){
     (wdir1 <- wdir2) }
     
-    
-   
+       
 
 }
 
